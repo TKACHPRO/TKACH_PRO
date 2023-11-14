@@ -34,7 +34,7 @@ const Footer = () => {
             Vitebsk, Belarus <br></br> since 2020
           </p>
         </div>
-        <div className="grid grid-cols-2 grid-rows-x4 gap-10 min-w-130 justify-items-end max-md:gap-6 max-sm:text-xs max-sm:gap-3">
+        <div className="grid grid-cols-2 grid-rows-x4 gap-10 content-between pb-20 min-w-130 justify-items-end max-md:gap-6 max-sm:text-xs max-sm:gap-3">
           <p className="font-futura text-pink md:hidden col-start-2 col-end-2 whitespace-nowrap">TKACH PRO</p>
           <Link href={"/home"} as={"/home"} className="md:col-start-2 md:col-end-2">
             Tkach Pro
