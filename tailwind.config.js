@@ -54,9 +54,11 @@ module.exports = {
         dark: "#161920",
         light: "#FFFFFF",
         pink: "#DA5D7D",
+        gray: "#A7A7A7",
       },
       height: {
         15: "60px",
+        73: "292px",
         154: "616px",
         300: "300px",
         310: "300px",
@@ -89,6 +91,7 @@ module.exports = {
         23: "92px",
       },
       fontSize: {
+        xxs: "10px",
         eb: "28px",
         "1xl": "22px",
       },
