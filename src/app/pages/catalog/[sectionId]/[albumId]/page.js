@@ -3,16 +3,6 @@ import getCatalogSection from "@/app/api/getCatalogSection";
 import CatalogAlbumItem from "@/components/catalog/catalogAlbumItem";
 import CatalogAlbumHeading from "@/components/catalog/catalogAlbumHeading";
 
-// export const generateStaticParams = async ({ params: { sectionId } }) => {
-//   const { albums } = await getCatalogSection(sectionId);
-
-//   return albums.map((albumId) => {
-//     return {
-//       albumId: albumId,
-//     };
-//   });
-// };
-
 export const generateMetadata = async ({ params }) => {
   const { albumId } = params;
 

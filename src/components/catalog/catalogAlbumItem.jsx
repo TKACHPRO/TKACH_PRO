@@ -7,7 +7,7 @@ const CatalogAlbumItem = ({ url, author }) => {
       <div className="relative w-337 h-337 max-sm:w-310 max-sm:h-310">
         <Image src={url} alt={author} fill className="bg-dark object-cover" placeholder="blur" blurDataURL={url} />
       </div>
-      <h3 className="font-bold text-sm mt-4 text-end max-sm:pr-4">{`@${author}`}</h3>
+      <h3 className="font-bold text-sm mt-4 text-end max-sm:pr-4">{`${author}`}</h3>
     </Link>
   );
 };
