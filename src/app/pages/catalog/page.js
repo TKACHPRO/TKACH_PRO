@@ -8,7 +8,7 @@ export const metadata = {
   description: "TKACH PRO / Catalog",
 };
 
-export const revalidate = 60;
+export const revalidate = 1800;
 
 const Catalog = async () => {
   const sections = await getCatalogSections();

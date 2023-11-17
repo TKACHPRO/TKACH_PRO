@@ -6,7 +6,7 @@ export const metadata = {
   description: "TKACH PRO / Gallery",
 };
 
-export const revalidate = 60;
+export const revalidate = 1800;
 
 const Gallery = async () => {
   const galleryAlbums = await getGalleryAlbums();

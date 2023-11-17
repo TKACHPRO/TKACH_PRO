@@ -14,7 +14,7 @@ export const generateMetadata = async ({ params }) => {
   };
 };
 
-export const revalidate = 60;
+export const revalidate = 1800;
 
 const CatalogAlbum = async ({ params }) => {
   const { albumId } = params;

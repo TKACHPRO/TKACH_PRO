@@ -3,7 +3,7 @@ import getCatalogSection from "@/app/api/getCatalogSection";
 import CatalogAlbumCard from "@/components/catalog/catalogAlbumCard";
 import CatalogSectionHeading from "@/components/catalog/catalogSectionHeading";
 
-export const revalidate = 60;
+export const revalidate = 1800;
 
 const CatalogSection = async ({ params }) => {
   const { sectionId } = params;

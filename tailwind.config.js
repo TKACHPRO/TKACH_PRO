@@ -90,6 +90,12 @@ module.exports = {
         22: "88px",
         23: "92px",
       },
+      padding: {
+        16: "64px",
+        17: "68px",
+        18: "72px",
+        19: "76px",
+      },
       fontSize: {
         xxs: "10px",
         eb: "28px",
@@ -102,6 +108,7 @@ module.exports = {
         19: "76px",
         23: "92px",
         10: "10px",
+        7.5: "1.85rem",
         minusScreenW: "-100vw",
       },
       content: {

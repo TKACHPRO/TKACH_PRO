@@ -34,7 +34,9 @@ const Footer = () => {
             Vitebsk, Belarus <br></br> since 2020
           </p>
         </div>
-        <div className="grid grid-cols-2 grid-rows-x4 gap-10 content-between pb-20 min-w-130 justify-items-end max-md:gap-6 max-sm:text-xs max-sm:gap-3">
+        {/* <div className="grid grid-cols-2 grid-rows-x4 gap-10 content-between pb-20 min-w-130 justify-items-end max-md:gap-6 max-sm:text-xs max-sm:gap-3"> */}
+
+        <div className="grid grid-cols-2 grid-rows-x4  gap-7 min-w-130 justify-items-end max-md:gap-y-7.5 max-md:gap-x-3 max-sm:text-xs max-sm:gap-y-6 max-sm:gap-x-3">
           <p className="font-futura text-pink md:hidden col-start-2 col-end-2 whitespace-nowrap">TKACH PRO</p>
           <Link href={"/home"} as={"/home"} className="md:col-start-2 md:col-end-2">
             Tkach Pro
@@ -56,7 +58,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <p className="text-xxs text-gray max-lg:max-w-358 leading-3 mt-5 text-center">
+      <p className="w-full text-xxs text-gray max-lg:max-w-358 leading-3 mt-5 text-center">
         tkachpro.com не является интернет-магазином. Информация на сайте носит рекламно-информационный характер.
       </p>
     </footer>
